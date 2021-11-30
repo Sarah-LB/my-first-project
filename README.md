@@ -234,7 +234,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Media
 
--   All Images were created by the developer.
+-   Logo designed by designer.
 
 ### Acknowledgements
 
