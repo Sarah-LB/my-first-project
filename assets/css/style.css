@@ -1,7 +1,21 @@
+/*-----------------------------------------------------------Colours*/
+
+.bg-color-header-contact-info {
+    background-color: #fff;
+}
+
+.bg-color-menu-heading {
+    background-color: rgb(35, 16, 212);
+}
+
 /*-----------------------------------------------------------Header*/
 
 header {
     margin: 0;
+}
+
+.contact-heading {
+    text-align: center;
 }
 
 .logo {
@@ -9,8 +23,13 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 240px;
+    min-height: 180px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
+}
+
+#nav li {
+    font-size: 16px;
+    padding: 0;
 }
