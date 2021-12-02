@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html lang="en-US">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
+        type="text/css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&family=Varela+Round&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+        integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>Apollo Health</title>
 </head>
+
 <body>
     <header>
         <div class="row no-gutters">
@@ -19,50 +26,87 @@
             <a href="index.html" class="col-md-4 logo"></a>
 
             <!-- CONTACT INFO IN THE HEADER -->
-            <div class="col-md-8 contact-heading">
-                <div class="row bg-color-header-contact-info">
+            <div class="col-md-8">
+                <div class="row bg-color-header-contact-info heading">
                     <div class="col-md-4">
-                        <h3><i class="fas fa-map-marker-alt"></i> Location</h3>
-                        <p>123 Shelby Street</p>
-                        <p>London</p>
-                        <p>EC23 5GJ</p>
+                        <div class="row">
+                            <div class="col-md-4 icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="col-md-8">
+                                <h3>Location</h3>
+                                <h2>123 Shelby Street</h2>
+                                <h2>London</h2>
+                                <h2>EC23 5GJ</h2>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-md-4">
-                        <h3><i class="far fa-envelope"></i> Email Us</h3>
-                        <p>info@apollo-health.com</p>
+                        <div class="row">
+                            <div class="col-md-4 icon">
+                                <i class="far fa-envelope"></i>
+                            </div>
+                            <div class="col-md-8">
+                                <h3>Email Us</h3>
+                                <h2>info@apollo-health.com</h2>
+                            </div>
+                        </div>
                     </div>
                     <div class="col-md-4">
-                        <h3><i class="fas fa-mobile-alt"></i> Call Us</h3>
-                        <p>0200 0000 0001</p>
+                        <div class="row">
+                            <div class="col-md-4 icon">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <div class="col-md-8">
+                                <h3>Call Us</h3>
+                                <h2>0200 0000 0001</h2>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- NAV MENU IN THE HEADER -->
-        <div class="row no-gutters">
+
+        <div class="row no-gutters bg-color-header-nav-bar navbar-header">
+            <!-- NAV MENU IN THE HEADER -->
             <div class="col-4">
-                <ul id="nav" class="list-inline menucontainer bg-color-menu-heading">
-                    <li class="col-6 col-sm-3 list-inline-item">
-                        <a href="index.html"><span>Home</span></a>
+                <ul id="nav" class="list-inline menucontainer">
+                    <li class="col-6 col-sm-3 list-inline-item menuitem">
+                        <a href="index.html" class="hvr-grow active"><span>Home</span></a>
                     </li>
-                    <li class="col-6 col-sm-3 list-inline-item">
-                        <a href="about.html"><span>About</span></a>
+                    <li class="col-6 col-sm-3 list-inline-item menuitem">
+                        <a href="about.html" class="hvr-grow"><span>About</span></a>
                     </li>
-                    <li class="col-6 col-sm-3 list-inline-item">
-                        <a href="services.html"><span>Services</span></a>  
+                    <li class="col-6 col-sm-3 list-inline-item menuitem">
+                        <a href="services.html" class="hvr-grow"><span>Services</span></a>
                     </li>
-                    <li class="col-6 col-sm-3 list-inline-item">
-                        <a href="contact.html"><span>Contact</span></a>
+                    <li class="col-6 col-sm-3 list-inline-item menuitem">
+                        <a href="contact.html" class="hvr-grow"><span>Contact</span></a>
                     </li>
                 </ul>
             </div>
             <div class="col-4"></div>
             <!-- SOCIAL LINKS IN THE HEADER -->
-            <div class="col-4"></div>
+            <div class="col-4">
+                <ul id="social" class="list-inline menucontainer">
+                    <li class="col-6 col-sm-3 list-inline-item socialitem-header">
+                        <a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+                    </li>
+                    <li class="col-6 col-sm-3 list-inline-item socialitem-header">
+                        <a href="https://uk.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+                    </li>
+                    <li class="col-6 col-sm-3 list-inline-item socialitem-header">
+                        <a href="https://twitter.com/"><i class="fab fa-twitter-square"></i></a>
+                    </li>
+                    <li class="col-6 col-sm-3 list-inline-item socialitem-header">
+                        <a href="https://www.instagram.com/"><i class="fab fa-instagram-square"></i></a>
+                    </li>
+                </ul>
+            </div>
         </div>
 
-      
+
     </header>
     <section>
 
@@ -72,6 +116,7 @@
     </footer>
 
 
-    
+
 </body>
+
 </html>
