@@ -1,11 +1,15 @@
 /*-----------------------------------------------------------Colours*/
 
-.bg-color-header-contact-info {
+.bg-color-header-contact {
     background-color: #fff;
 }
 
-.bg-color-header-nav-bar {
-    background-color: rgb(35, 16, 212);
+.bg-color-header-navbar {
+    background-color: rgb(31, 16, 165);
+}
+
+.bg-color-footer {
+    background-color:rgb(31, 16, 165);
 }
 
 /*-----------------------------------------------------------Header*/
@@ -33,7 +37,7 @@ header {
 }
 
 .icon {
-    color:rgb(35, 16, 212);
+    color:rgb(31, 16, 165);
     text-align: right;
     font-size: 32px;
     padding-left: 40px;
@@ -91,6 +95,27 @@ header {
     font-weight: 700;
 }
 
-.socialitem-footer a {
-    color: rgb(35, 16, 212);
+/*-----------------------------------------------------------Header*/
+
+.socialfooter {
+    padding: 0 50px;
+    text-align: center;
+}
+
+#socfoot li a i {
+    color:rgb(238, 159, 13);
+}
+
+.footercontact {
+    list-style: none;
+    color:#fff;
+
+}
+
+.footer-contact-opening h2 {
+    color: #fff;
+}
+
+.ul-contact-footer li {
+    color: #fff;
 }

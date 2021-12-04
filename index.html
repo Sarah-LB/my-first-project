@@ -22,12 +22,11 @@
 <body>
     <header>
         <div class="row no-gutters">
-            <!-- LOGO IN THE HEADER -->
             <a href="index.html" class="col-md-4 logo"></a>
 
             <!-- CONTACT INFO IN THE HEADER -->
             <div class="d-none d-md-block col-md-8">
-                <div class="row no-gutters bg-color-header-contact-info heading">
+                <div class="row no-gutters bg-color-header-contact heading">
                     <div class="col-md-4">
                         <div class="row">
                             <div class="col-md-4 icon">
@@ -68,7 +67,7 @@
         </div>
 
 
-        <div class="row no-gutters bg-color-header-nav-bar navbar-header">
+        <div class="row no-gutters bg-color-header-navbar navbar-header">
             <!-- NAV MENU IN THE HEADER -->
             <nav class="col-4 navbar-dark">
                 <button class="navbar-toggler d-md-none" type="button" data-toggle="collapse" data-target="#NavDropdown" aria-controls="NavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -115,30 +114,35 @@
 
     </header>
     <section>
+        <div class="row">
+            <div class="col-12">
+                <h1>MAIN ARTICLE</h1>
+            </div>
+        </div>
 
     </section>
-    <footer>
+
+    <footer class="bg-color-footer">
         <div class="row no-gutters">
-            <!-- LOGO IN THE HEADER -->
-           <div class="col-md-4 logo">
+            <!-- LOGO IN THE FOOTER -->
+            <div class="col-md-4">
                 <div class="row no-gutters">
-                    <div class="col">
-                        <a href="index.html"></a>
-                    </div>
+                    <a href="index.html" class="col logo"></a>
                 </div>
-                <div class="row no-gutters">
-                    <div class="col">
-                        <ul id="social" class="list-inline menucontainer">
-                            <li class="col-3 list-inline-item socialitem-footer">
+                <div class="row no-gutters socialfooter">
+                <!-- SOCIAL IN THE FOOTER -->
+                    <div class="col-12">
+                        <ul id="socfoot" class="list-inline menucontainer">
+                            <li class="col-3 list-inline-item socialitem-header">
                                 <a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
                             </li>
-                            <li class="col-3 list-inline-item socialitem-footer">
+                            <li class="col-3 list-inline-item socialitem-header">
                                 <a href="https://uk.linkedin.com/"><i class="fab fa-linkedin"></i></a>
                             </li>                        
-                            <li class="col-3 list-inline-item socialitem-footer">
+                            <li class="col-3 list-inline-item socialitem-header">
                                 <a href="https://twitter.com/"><i class="fab fa-twitter-square"></i></a>
                             </li>
-                            <li class="col-3 list-inline-item socialitem-footer">
+                            <li class="col-3 list-inline-item socialitem-header">
                                 <a href="https://www.instagram.com/"><i class="fab fa-instagram-square"></i></a>
                             </li>
                         </ul>
@@ -147,42 +151,37 @@
             </div>
 
             <!-- CONTACT INFO IN THE HEADER -->
-            <div class="d-none d-md-block col-md-8">
-                <div class="row no-gutters bg-color-header-contact-info heading">
-                    <div class="col-md-4">
-                        <div class="row">
-                            <div class="col-md-4 icon">
-                                <i class="fas fa-map-marker-alt"></i>
-                            </div>
-                            <div class="col-md-8">
-                                <h3>Location</h3>
-                                <h2>123 Shelby Street</h2>
-                                <h2>London</h2>
-                                <h2>EC23 5GJ</h2>
-                            </div>
-                        </div>
+            <div class="col-md-8">
+                <div class="row no-gutters">
+                    <div class="col-md-6 footer-contact-opening">
+                        <h2>Contact Us</h2>
+                        <ul class="ul-contact-footer">
+                            <li>info@apollohealth.com</li>
+                            <li>0200 0000 0001</li>
+                            <li>123 Shelby Street
+                                London
+                                EC23 5GT
+                            </li>
+                        </ul>
                     </div>
-                    <div class="col-md-4">
-                        <div class="row">
-                            <div class="col-md-4 icon">
-                                <i class="far fa-envelope"></i>
-                            </div>
-                            <div class="col-md-8">
-                                <h3>Email Us</h3>
-                                <h2>info@apollo-health.com</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="row">
-                            <div class="col-md-4 icon">
-                                <i class="fas fa-mobile-alt"></i>
-                            </div>
-                            <div class="col-md-8">
-                                <h3>Call Us</h3>
-                                <h2>0200 0000 0001</h2>
-                            </div>
-                        </div>
+                    <div class="col-md-6 footer-contact-opening">
+                        <h2>Opening Hours</h2>
+                        <ul>
+                            <li class="row">
+                                <ul class="col-6 footercontact">
+                                    <li>Monday - Friday</li>
+                                    <li>Saturday</li>
+                                    <li>Sunday</li>
+                                    <li>Bank Holiday</li>
+                                </ul>
+                                <ul class="col-6 footercontact">
+                                    <li>09:00 - 18:00</li>
+                                    <li>10:00 - 16:00</li>
+                                    <li>Closed</li>
+                                    <li>Closed</li>
+                                </ul>   
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
