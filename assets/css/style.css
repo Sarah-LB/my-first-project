@@ -111,7 +111,9 @@ header {
 .footercontact {
     list-style: none;
     color:#fff;
-
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
 }
 
 .footer-contact-opening h2 {
@@ -125,10 +127,23 @@ header {
 .ul-contact-footer li {
     color: #fff;
     font-family: 'Roboto', sans-serif;
-    font-size: 50px;
-    font-weight: 200;
+    font-size: 16px;
+    font-weight: 300;
 }
 
 .ul-contact-footer {
     padding-left: 60px;
+}
+
+.footersignup {
+    list-style: none;
+    color:#fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    padding-left: 40px;
+}
+
+.footbar {
+    padding-top: 30px;
 }
