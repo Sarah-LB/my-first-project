@@ -44,7 +44,7 @@ header {
 }
 
 .logo {
-    background: url("/assets/images/logo.jpg");
+    background: url("/assets/images/logo-bg-white.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -114,6 +114,7 @@ header {
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 300;
+    padding-right: 30px;
 }
 
 .footer-contact-opening h2 {
@@ -147,3 +148,4 @@ header {
 .footbar {
     padding-top: 30px;
 }
+

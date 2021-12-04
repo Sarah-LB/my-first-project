@@ -169,6 +169,10 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     -   A white gap can be seen to the right of the footer and navigation bar as a result.
 -   On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
 
+### Issues I came across - where to put this?
+-   Used vw for font-size but also changed layout for different devices - so had tiny text and icons spanning the whole screen!
+    Changed for media queries.
+
 ## Deployment
 
 ### GitHub Pages
