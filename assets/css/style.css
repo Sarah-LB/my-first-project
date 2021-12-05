@@ -28,6 +28,7 @@ header {
     font-size: 14px;
     font-weight: 600;
     font-family: 'Roboto', sans-serif;
+    white-space: nowrap;
 }
 
 .heading h3 {
@@ -43,15 +44,16 @@ header {
     padding-left: 40px;
 }
 
-.logo {
-    background: url("/assets/images/logo-bg-white.jpg");
+.logowhite {
+    background: url("/assets/images/logowhite.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 180px;
+    background-size: contain;
+    min-height: 100px;
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
+    background-color: none;
 }
 
 .menucontainer {
@@ -97,7 +99,7 @@ header {
     font-weight: 700;
 }
 
-/*-----------------------------------------------------------Header*/
+/*-----------------------------------------------------------Footer*/
 
 .socialfooter {
     padding: 0 50px;
@@ -115,6 +117,7 @@ header {
     font-size: 16px;
     font-weight: 300;
     padding-right: 30px;
+    white-space: nowrap;
 }
 
 .footer-contact-opening h2 {
@@ -123,6 +126,11 @@ header {
     font-weight: 400;
     font-size: 28px;
     font-family: 'Roboto', sans-serif;
+}
+
+.footer-contact-opening hr {
+    border: 1px solid #fff;
+    width: 50%;
 }
 
 .ul-contact-footer li {
@@ -149,3 +157,22 @@ header {
     padding-top: 30px;
 }
 
+.logoblue {
+    background: url("/assets/images/logoblue.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 100px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    background-color: none;
+}
+
+.address {
+    list-style: none;
+}
+
+.footlogo {
+    padding-top: 30px;
+}
