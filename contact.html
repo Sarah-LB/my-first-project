@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+   
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css" type="text/css"/>
+    <title>Apollo Health</title>
+</head>
+
+<body>
+    <!-- LOGO AND CONTACT INFO-->
+    <header>
+        <div class="row no-gutters bg-color-heading">
+            <a href="index.html" class="col-md-4 logowhite"></a>
+
+            <!-- CONTACT INFO IN THE HEADER -->
+            <div class="d-none d-md-block col-md-8">
+                <div class="row no-gutters bg-color-header-contact heading">
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col-md-4 icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="col-md-8">
+                                <h3>Location</h3>
+                                <h2>123 Shelby Street</h2>
+                                <h2>London</h2>
+                                <h2>EC23 5GJ</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col-md-4 icon">
+                                <i class="far fa-envelope"></i>
+                            </div>
+                            <div class="col-md-8">
+                                <h3>Email Us</h3>
+                                <h2>info@apollo-health.com</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="row">
+                            <div class="col-md-4 icon">
+                                <i class="fas fa-mobile-alt"></i>
+                            </div>
+                            <div class="col-md-8">
+                                <h3>Call Us</h3>
+                                <h2>0200 0000 0001</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- STICKY NAVBAR - WOULD ONLY WORK OUTSIDE OF HEADER-->
+    <div class="row no-gutters bg-color-header-navbar navbar-header sticky-top">
+        <nav class="col-4 navbar-dark">
+            <button class="navbar-toggler d-md-none" type="button" data-toggle="collapse" data-target="#NavDropdown" aria-controls="NavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span></button>
+
+            <div class="collapse navbar-collapse d-md-block" id="NavDropdown">
+                
+                <ul id="nav" class="list-inline menucontainer">
+                    <li class="col-3 list-inline-item menuitem">
+                        <a href="index.html" class="hvr-grow active"><span>Home</span></a>
+                    </li>
+                    <li class="col-3 list-inline-item menuitem">
+                        <a href="about.html" class="hvr-grow"><span>About</span></a>
+                    </li>
+                    <li class="col-3 list-inline-item menuitem">
+                        <a href="services.html" class="hvr-grow"><span>Services</span></a>                        </li>
+                    <li class="col-3 list-inline-item menuitem">
+                        <a href="contact.html" class="hvr-grow"><span>Contact</span></a>
+                    </li>
+                </ul>
+            </div>
+            </nav>
+            <div class="col-6 d-none d-md-block"></div>
+            <div class="col-8 col-md-2">
+                <ul id="social" class="list-inline menucontainer">
+                    <li class="col-3 list-inline-item socialitem-header">
+                        <a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+                    </li>
+                    <li class="col-3 list-inline-item socialitem-header">
+                        <a href="https://uk.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+                    </li>
+                    <li class="col-3 list-inline-item socialitem-header">
+                        <a href="https://twitter.com/"><i class="fab fa-twitter-square"></i></a>
+                    </li>
+                    <li class="col-3 list-inline-item socialitem-header">
+                        <a href="https://www.instagram.com/"><i class="fab fa-instagram-square"></i></a>
+                    </li>
+                </ul>
+            </div>
+       </div>
+
+    <!-- MAIN SECTION -->
+    <section class="main-container">
+        <div class="row">
+            <div class="col-md-8" id="main-message">
+                <h1>Live Healthier! Live Freely!</h1>
+                <h2>Discover the healthier version of yourself</h2>
+                <br>
+                <p>There is no "one size fits all" solution to permanent and healthy weight loss. What works for others may not work for you, as different bodies respond differently, due to genetics and other health factors. Work with us to find a method of weight loss that’s right for you.</p>
+                <br>
+                <button type="button" class="btn btn-outline-dark">Learn more about Apollo Health</button>
+
+                <div class="row main-testimonials">
+                    <div class="col-12 col-md-4">
+                        <h3>"Apollo Health have changed the way I manage my weight for the better!"</h3>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <h3>"So happy with my new slim and healthy body."</h3>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <h3>"Kai and the team offer an efficient and professional service."</h3>
+                    </div>
+                </div>
+            </div>
+            <div class= col-md-4>
+                <img src="/assets/images/hero-image.jpeg" alt="" class="hero-image">
+            </div>
+        </div>
+        
+        
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-color-footer">
+        <div class="row no-gutters">
+            <!-- LOGO IN THE FOOTER -->
+            <div class="col-md-4">
+                <div class="row no-gutters footlogo">
+                    <a href="index.html" class="col logoblue"></a>
+                </div>
+                <div class="row no-gutters socialfooter">
+                <!-- SOCIAL IN THE FOOTER -->
+                    <div class="col-12">
+                        <ul id="socfoot" class="list-inline menucontainer">
+                            <li class="col-3 list-inline-item socialitem-header">
+                                <a href="https://www.facebook.com/"><i class="fab fa-facebook-square"></i></a>
+                            </li>
+                            <li class="col-3 list-inline-item socialitem-header">
+                                <a href="https://uk.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+                            </li>                        
+                            <li class="col-3 list-inline-item socialitem-header">
+                                <a href="https://twitter.com/"><i class="fab fa-twitter-square"></i></a>
+                            </li>
+                            <li class="col-3 list-inline-item socialitem-header">
+                                <a href="https://www.instagram.com/"><i class="fab fa-instagram-square"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CONTACT INFO IN THE FOOTER -->
+            <div class="col-md-8">
+                <div class="row no-gutters footbar">
+                    <div class="col-12 col-md-4 footer-contact-opening">
+                        <h2>Stay Informed</h2>
+                        <ul class="footersignup">
+                            <li>Keep up to date with our Newsletter.</li>
+                            <li>Sign up <a href="#">here</a>.</li>
+                        </ul>
+                        <hr class="d-md-none">
+                    </div>
+                    <div class="col-12 col-md-4 footer-contact-opening">
+                        <h2>Contact Us</h2>
+                        <ul class="ul-contact-footer">
+                            <li>info@apollohealth.com</li>
+                            <li>0200 0000 0001</li>
+                            <li>123 Shelby Street</li>
+                            <li class="address">London</li>
+                            <li class="address">EC23 5GT</li>
+                        </ul>
+                        <hr class="d-md-none">
+                    </div>
+                    <div class="col-12 col-md-4 footer-contact-opening">
+                        <h2>Opening Hours</h2>
+                        <ul>
+                            <li class="row">
+                                <ul class="col-6 footercontact">
+                                    <li>Monday - Friday</li>
+                                    <li>Saturday</li>
+                                    <li>Sunday</li>
+                                    <li>Bank Holiday</li>
+                                </ul>
+                                <ul class="col-6 footercontact">
+                                    <li>09:00 - 18:00</li>
+                                    <li>10:00 - 16:00</li>
+                                    <li>Closed</li>
+                                    <li>Closed</li>
+                                </ul>   
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 copyright-footer">
+                <hr>
+                <h4>© Copyright 2021 Apollo Health | Weight Management Solutions. All Rights Reserved</h4>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+</body>
+
+</html>

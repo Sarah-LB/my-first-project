@@ -174,6 +174,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
     Changed for media queries.
 -   text in footer and header wrapping - needed to stop it.
 -   needed hero image with transparent background or looked too blocky
+-   TRYING TO IMPLEMENT STICKY NAVBAR!!
 
 ## Deployment
 

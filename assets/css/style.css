@@ -12,6 +12,10 @@
     background-color:rgb(31, 16, 165);
 }
 
+.bg-color-heading {
+    background-color: #fff;
+}
+
 /*-----------------------------------------------------------Header*/
 
 header {
@@ -19,8 +23,8 @@ header {
 }
 
 .heading {
-    margin-left: 30px;
-    margin-top: 10px;
+    margin-left: 0;
+    padding-top: 10px;
     margin-bottom: 10px;
 }
 
@@ -109,7 +113,7 @@ img {
   }
   
 .main-container {
-    padding-left: 35px;
+    padding-left: 50px;
 }
 
 #main-message {
@@ -118,22 +122,22 @@ img {
 
 #main-message h1 {
     font-weight: 100;
-    font-size: 36px;
+    font-size: 32px;
     font-family: 'Varela Round', sans-serif;
     color:rgb(31, 16, 165);
-    padding-top: 100px;
+    padding-top: 75px;
 }
 
 #main-message h2 {
     font-weight: 700;
-    font-size: 36px;
+    font-size: 32px;
     font-family: 'Varela Round', sans-serif;
     color: #000;
 }
 
 #main-message p {
     font-weight: 300;
-    font-size: 24px;
+    font-size: 22px;
     font-family: 'Roboto', sans-serif;
     color:#000;
     width: 70%;
@@ -145,17 +149,18 @@ img {
     text-align: center;
     color: #fff;
     font-family: 'Roboto', sans-serif;
-    font-size: 24px;
+    font-size: 18px;
+    font-weight: 300;
 
 }
 
-.main-testimonials {
+.main-testimonials h3{
     font-weight: 300;
-    font-size: 24px;
+    font-size: 22px;
     font-family: 'Varela Round', sans-serif;
     color: #000;
     font-style: italic;
-    padding-top: 75px;
+    margin-top: 75px;
 }
 
 
@@ -253,6 +258,6 @@ img {
     color:#fff;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
-    font-weight: 200;
+    font-weight: 300;
     padding-left: 36px;
 }
