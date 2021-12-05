@@ -20,7 +20,7 @@ header {
 
 .heading {
     margin-left: 30px;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 10px;
 }
 
@@ -99,6 +99,46 @@ header {
 .active {
     font-weight: 700;
 }
+
+/*-----------------------------------------------------------Content for Index.html*/
+
+img {
+    max-width: 100%;
+    height: auto;
+    transform: scaleX(-1);
+  }
+  
+.main-container {
+    padding-left: 35px;
+}
+
+#main-message {
+    margin-top: 50px;
+}
+
+#main-message h1 {
+    font-weight: 100;
+    font-size: 32px;
+    font-family: 'Varela Round', sans-serif;
+    color:rgb(31, 16, 165);
+}
+
+#main-message h2 {
+    font-weight: 700;
+    font-size: 32px;
+    font-family: 'Varela Round', sans-serif;
+    color:#000;
+}
+
+#main-message p {
+    font-weight: 300;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    color:#000;
+    width: 70%;
+    text-align: left;
+}
+
 
 /*-----------------------------------------------------------Footer*/
 

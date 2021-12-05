@@ -173,6 +173,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   Used vw for font-size but also changed layout for different devices - so had tiny text and icons spanning the whole screen!
     Changed for media queries.
 -   text in footer and header wrapping - needed to stop it.
+-   needed hero image with transparent background or looked too blocky
 
 ## Deployment
 
@@ -240,7 +241,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 ### Media
 
 -   Logo design GIMP (inspired by Bunmi?)
-
+-   hero-image sourced from https://stock.adobe.com/uk/contributor/37954/dmitry-sunagatov?load_type=author&prev_url=detail
 ### Acknowledgements
 
 -   My Mentor for continuous helpful feedback.
