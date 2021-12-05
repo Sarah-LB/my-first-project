@@ -244,6 +244,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 -   Logo design GIMP (inspired by Bunmi?)
 -   hero-image sourced from https://stock.adobe.com/uk/contributor/37954/dmitry-sunagatov?load_type=author&prev_url=detail
 ### Acknowledgements
+-   services image from https://stock.adobe.com/uk/contributor/293582/new-africa?load_type=author&prev_url=detail
 
 -   My Mentor for continuous helpful feedback.
 
