@@ -127,7 +127,7 @@ img {
     font-weight: 700;
     font-size: 32px;
     font-family: 'Varela Round', sans-serif;
-    color:#000;
+    color: #000;
 }
 
 #main-message p {
@@ -137,6 +137,14 @@ img {
     color:#000;
     width: 70%;
     text-align: left;
+}
+
+.main-testimonials {
+    font-weight: 400;
+    font-size: 24px;
+    font-family: 'Varela Round', sans-serif;
+    color: #000;
+    font-style: italic;
 }
 
 
