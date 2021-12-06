@@ -117,7 +117,7 @@ img {
   }
   
 .main-container {
-    padding-left: 50px;
+    padding: 0px 50px;
 }
 
 #main-message {
@@ -155,7 +155,7 @@ img {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: 300;
-
+    padding: 10px;
 }
 
 .main-testimonials h3{
@@ -167,6 +167,64 @@ img {
     margin-top: 75px;
 }
 
+/*-----------------------------------------------------------Content for Services.html*/
+
+#services-heading h1 {
+    font-weight: 700;
+    font-size: 36px;
+    font-family: 'Varela Round', sans-serif;
+    color: #000;
+    padding-top: 50px;
+    text-align: center;
+}
+
+#info-services p,
+#services-heading p {
+    font-weight: 300;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    color:#000;
+    text-align: left;
+}
+
+#lead-generator h1 {
+    font-weight: 700;
+    font-size: 32px;
+    font-family: 'Roboto', sans-serif;
+    color: #000;
+    padding-top: 50px;
+}
+
+#lead-generator h3 {
+    font-weight: 300;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    color:#000;
+    padding-bottom: 50px;
+}
+
+#lead-button {
+    text-align: center;
+    margin: 50px 0px;
+}
+
+#lead-button button {
+    background-color: rgb(31, 16, 165);
+    text-align: center;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    padding: 20px;
+}
+
+#info-services h2 {
+    font-weight: 600;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    color:#000;
+    text-align: left;  
+}
 
 /*-----------------------------------------------------------Footer*/
 
@@ -265,3 +323,4 @@ img {
     font-weight: 300;
     padding-left: 36px;
 }
+
