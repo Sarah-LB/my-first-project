@@ -120,11 +120,11 @@ img {
     padding: 0px 50px;
 }
 
-#main-message {
+.main-message {
     margin-top: 50px;
 }
 
-#main-message h1 {
+.main-message h1 {
     font-weight: 100;
     font-size: 32px;
     font-family: 'Varela Round', sans-serif;
@@ -132,23 +132,23 @@ img {
     padding-top: 75px;
 }
 
-#main-message h2 {
+.main-message h2 {
     font-weight: 700;
     font-size: 32px;
     font-family: 'Varela Round', sans-serif;
     color: #000;
 }
 
-#main-message p {
+.main-message p {
     font-weight: 300;
     font-size: 22px;
     font-family: 'Roboto', sans-serif;
     color:#000;
-    width: 70%;
+    width: 80%;
     text-align: left;
 }
 
-#main-message button {
+.main-message button {
     background-color: rgb(31, 16, 165);
     text-align: center;
     color: #fff;
@@ -169,7 +169,7 @@ img {
 
 /*-----------------------------------------------------------Content for Services.html*/
 
-#services-heading h1 {
+.services-heading h1 {
     font-weight: 700;
     font-size: 36px;
     font-family: 'Varela Round', sans-serif;
@@ -178,8 +178,8 @@ img {
     text-align: center;
 }
 
-#info-services p,
-#services-heading p {
+.info-services p,
+.services-heading p {
     font-weight: 300;
     font-size: 22px;
     font-family: 'Roboto', sans-serif;
@@ -187,15 +187,15 @@ img {
     text-align: left;
 }
 
-#lead-generator h1 {
+.lead-generator h1 {
     font-weight: 700;
     font-size: 32px;
     font-family: 'Roboto', sans-serif;
     color: #000;
-    padding-top: 50px;
+    padding-top: 75px;
 }
 
-#lead-generator h3 {
+.lead-generator h3 {
     font-weight: 300;
     font-size: 22px;
     font-family: 'Roboto', sans-serif;
@@ -205,7 +205,7 @@ img {
 
 #lead-button {
     text-align: center;
-    margin: 50px 0px;
+    margin: 75px 0px;
 }
 
 #lead-button button {
@@ -218,16 +218,17 @@ img {
     padding: 20px;
 }
 
-#info-services h2 {
-    font-weight: 600;
+.info-services h2 {
+    font-weight: 400;
     font-size: 22px;
     font-family: 'Roboto', sans-serif;
     color:#000;
-    text-align: left;  
+    text-align: left;
+    padding: 20px;  
 }
 
 .ul-services li {
-    padding: 0 50px;
+    padding: 10px 50px;
     font-weight: 300;
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
@@ -236,7 +237,16 @@ img {
 }
 
 .ul-services li i {
-    color:rgb(31, 16, 165)
+    color:rgb(31, 16, 165);
+    padding: 15px;
+}
+
+.info-services p {
+    padding: 0px 20px;
+}
+
+.services-heading p .gmclink {
+    text-decoration: none;
 }
 
 
