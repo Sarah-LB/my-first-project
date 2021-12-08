@@ -227,11 +227,15 @@ img {
 }
 
 .ul-services li {
-    padding: 50px;
+    padding: 0 50px;
     font-weight: 300;
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
     color:#000;
+}
+
+.uk-services li i {
+    color:rgb(31, 16, 165);
 }
 
 /*-----------------------------------------------------------Footer*/
