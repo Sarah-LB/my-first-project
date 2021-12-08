@@ -232,11 +232,14 @@ img {
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
     color:#000;
+    list-style-type: none;
 }
 
-.uk-services li i {
-    color:rgb(31, 16, 165);
+.ul-services li i {
+    color:rgb(31, 16, 165)
 }
+
+
 
 /*-----------------------------------------------------------Footer*/
 
