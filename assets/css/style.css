@@ -53,7 +53,7 @@ header {
 }
 
 .logowhite {
-    background: url("assets/images/logowhite.png");
+    background: url("/assets/images/logowhite.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -115,11 +115,11 @@ img {
     height: auto;
     transform: scaleX(-1);
   }
-  
-.main-container {
-    padding: 0px 50px;
-}
 
+.hero-message {
+    padding: 0 50px;
+}
+  
 .main-message {
     margin-top: 50px;
 }
@@ -158,13 +158,45 @@ img {
     padding: 10px;
 }
 
+.main-testimonials {
+    padding: 20px 50px;
+}
+
 .main-testimonials h3{
     font-weight: 300;
     font-size: 22px;
     font-family: 'Varela Round', sans-serif;
     color: #000;
     font-style: italic;
-    margin-top: 75px;
+}
+
+.bubble{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 6px rgb(238, 159, 13);
+    display: inline-block;
+    padding: 10px 10px;
+    position: relative;
+    vertical-align: top;
+    float: left;   
+    margin: 10px 20px;    
+}
+
+.bubble::before {
+    background-color: #fff;
+    content: "\00a0";
+    display: block;
+    height: 16px;
+    position: absolute;
+    top: 11px;
+    transform:             rotate( 29deg ) skew( -35deg );
+        -moz-transform:    rotate( 29deg ) skew( -35deg );
+        -ms-transform:     rotate( 29deg ) skew( -35deg );
+        -o-transform:      rotate( 29deg ) skew( -35deg );
+        -webkit-transform: rotate( 29deg ) skew( -35deg );
+    width:  20px;
+    box-shadow: -2px 2px 2px 0 rgb(238, 159, 13);
+    left: -9px; 
 }
 
 /*-----------------------------------------------------------Content for About.html*/
@@ -242,8 +274,6 @@ img {
 
 .about-banner,
 .services-banner {
-    margin-right: -50px;
-    margin-left: -50px;
     min-height: 530px;
 }
 
@@ -310,11 +340,6 @@ img {
 #socfoot li {
     padding-top: 10px;
 }
-
-#socfoot li a i {
-    color:rgb(238, 159, 13);
-}
-
 
 .footercontact {
     list-style: none;
