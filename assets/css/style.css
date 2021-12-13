@@ -65,7 +65,7 @@ header {
 }
 
 .logowhite {
-    background: url("/assets/images/logowhite.png");
+    background: url("../images/logowhite.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -361,8 +361,8 @@ img {
     text-align: center;
 }
 
-.contactus h4 {
-    font-family: "Roboto", sans-serif;
+.contactus p {
+    font-family: 'Roboto', sans-serif;
     font-size: 22px;
     font-weight: 300px;
     text-align: center;
@@ -374,11 +374,43 @@ img {
     max-width: 70%;
 }
 
+.center-form label {
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 300px;
+}
+
 button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300px;
     color: #000;
     background-color: rgb(238, 159, 13);
+}
+
+.googlemap {
+    margin: auto;
+    padding: 30px;
+}
+
+.map-section {
+    display: flex;
+}
+
+.contactmap-info {
+    margin: auto;
+}
+
+.contactmap-info h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 22px;
+    font-weight: 300px;
+}
+
+.contactmap-list {
+    padding: 30px;
 }
 
 /*-----------------------------------------------------------Footer*/
@@ -446,7 +478,7 @@ button[type="submit"] {
 }
 
 .logoblue {
-    background: url("/assets/images/logoblue.png");
+    background: url("../images/logoblue.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
