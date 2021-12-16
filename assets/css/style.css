@@ -251,7 +251,7 @@ img {
 }
 
 .leadcontainer {
-    padding: 50px 30px;
+    min-height: 200px;
 }
 
 .services-heading h1 {
@@ -273,6 +273,11 @@ img {
     text-align: left;
 }
 
+.lead-generator {
+    margin: 0 auto;
+    flex-direction: center;
+}
+
 .lead-generator h1 {
     font-weight: 700;
     font-size: 32px;
@@ -285,21 +290,27 @@ img {
     font-size: 22px;
     font-family: 'Roboto', sans-serif;
     color:#000;
-    padding-bottom: 50px;
+    padding-bottom: 30px;
 }
 
 #lead-button {
-    text-align: center;
+    margin: 0 auto;
+    line-height: 200px;
 }
 
 #lead-button button {
     background-color: rgb(31, 16, 165);
     text-align: center;
+    padding: 20px;
+    white-space: nowrap;
+}
+
+#lead-button button a {
+    text-decoration: none;
     color: #fff;
-    font-family: 'Roboto', sans-serif;
     font-size: 18px;
     font-weight: 300;
-    padding: 20px;
+    font-family: 'Roboto', sans-serif;
 }
 
 .about-banner,
@@ -525,4 +536,6 @@ button[type="submit"] {
 
 @media (max-width: 767px) {
     #NavDropdown {background-color: rgb(31, 16, 165);}
+    .menuitem {display: block; padding-left: 10px;}
+    .main-message {margin: 0;}
 }
