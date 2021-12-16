@@ -252,6 +252,7 @@ img {
 
 .leadcontainer {
     min-height: 200px;
+    padding: 30px;
 }
 
 .services-heading h1 {
@@ -273,11 +274,6 @@ img {
     text-align: left;
 }
 
-.lead-generator {
-    margin: 0 auto;
-    flex-direction: center;
-}
-
 .lead-generator h1 {
     font-weight: 700;
     font-size: 32px;
@@ -290,12 +286,10 @@ img {
     font-size: 22px;
     font-family: 'Roboto', sans-serif;
     color:#000;
-    padding-bottom: 30px;
 }
 
 #lead-button {
-    margin: 0 auto;
-    line-height: 200px;
+    padding: 10px;
 }
 
 #lead-button button {
@@ -538,4 +532,5 @@ button[type="submit"] {
     #NavDropdown {background-color: rgb(31, 16, 165);}
     .menuitem {display: block; padding-left: 10px;}
     .main-message {margin: 0;}
+    .leadcontainer {text-align: center;}
 }
