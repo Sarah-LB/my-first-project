@@ -173,9 +173,13 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   Used vw for font-size but also changed layout for different devices - so had tiny text and icons spanning the whole screen!
     Changed for media queries.
 -   text in footer and header wrapping - needed to stop it.
--   needed hero image with transparent background or looked too blocky
+-   needed hero image with transparent background or looked too blocky - used png image
 -   TRYING TO IMPLEMENT STICKY NAVBAR!!
--   moved navbar out of header to make it sticky.  but then hvr-grow not working on menu items!
+       moved navbar out of header to make it sticky.  but then hvr-grow not working on menu items! (known bug - need to fix)
+-   CENTERING LEADGENERATOR BUTTON AND HEADINGS - LEARNED ABOUT USING FLEXBOX IN BOOTSTRAP
+-   PICS TAKING TOO LONG TO LOAD - MADE SMALLER
+-   services.html pic looking oddly cropped on mobile so repositioned using media query
+-   navbar drop down text white on white background so couldn't see it - needed to use media query to make background blue.  Text all inline and ontop of each other.  Used media query to remove inline command for md screen sizes.
 
 ## Deployment
 

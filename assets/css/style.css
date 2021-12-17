@@ -533,4 +533,5 @@ button[type="submit"] {
     .menuitem {display: block; padding-left: 10px;}
     .main-message {margin: 0;}
     .leadcontainer {text-align: center;}
+    .services-banner img {    object-position: 50% 50%;}
 }
