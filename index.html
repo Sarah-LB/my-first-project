@@ -146,19 +146,25 @@
         </div>   
     <!--sign up form-->
 
-    <div class="modal" tabindex="-1" id="signupmodal">
+    <div class="modal signupform" tabindex="-1" id="signupmodal">
         <div class="modal-dialog">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title">Modal title</h5>
+              <h5 class="modal-title">Sign up for our newsletter!</h5>
               <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body">
-              <p>Modal body text goes here.</p>
-            </div>
-            <div class="modal-footer">
-              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary">Save changes</button>
+            <form action="https://formdump.codeinstitute.net/" method="post">
+                <div class="form-group">
+                    <label for="signupname">Full Name</label>
+                    <input type="text" class="form-control" id="signupname" aria-describedby="nameHelp" placeholder="Enter name">
+                </div>
+                <div class="form-group">
+                    <label for="signupemail">Email address</label>
+                    <input type="email" class="form-control" id="signupemail" aria-describedby="emailHelp" placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <button type="submit" class="btn btn-success">Submit</button>
+            </form>
             </div>
           </div>
         </div>
