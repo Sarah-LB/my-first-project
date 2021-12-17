@@ -131,6 +131,10 @@ header {
 
 /*-----------------------------------------------------------Content for Index.html*/
 
+main {
+    min-height: calc(100vh - 365px);
+}
+
 img {
     width: 100%;
     height: 540px;
