@@ -37,7 +37,8 @@ This is the main marketing website for Apollo Health. It is designed to be respo
 
 -   ### Design
     -   #### Colour Scheme
-        -   The two main colours used are blue and white, for a clean, clinical feel.  The orange from the logo is also used to highlight sections and draw the eye to social media links. 
+        -   The two main colours used are blue and white.  White offers a clear, sterile and clinical feel, while blue generates a sense of trust, intelligence and clear communication,.  Warm and comforting orange is used in the logo to balance the cool blues and white. It is used to highlight sections and draw the eye to certain areas of the page. 
+
     -   #### Typography
         -   The Roboto font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Roboto is a clean and clear font, making it appropriate for this site.
     -   #### Imagery
@@ -233,24 +234,22 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ### Code
 
--   The full-screen hero image code came from this [StackOverflow post](https://stackoverflow.com)
+-   [Bootstrap4](https://getbootstrap.com/docs/4.5/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
 
--   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+-   Example README.md from Code Institute used as template and edited.
 
--   readme from sodeinstitute template
+-   The modal signup form was taken from a Code Institute lesson and edited.
 
 ### Content
 
--   All content was written by the developer.
--   README file inspired by Code Institute - need to add and edit A LOT.
+-   Content was written by the developer and clinic owners.
 
--   Psychological properties of colours text in the README.md was found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours)
-
--   modal javascript form from lessons
+-   The psychological properties of colours were found [here](http://www.colour-affects.co.uk/psychological-properties-of-colours) and used to determine color scheme of site as described in README.md.
 
 ### Media
 
--   Logo design GIMP (inspired by Bunmi?)
+-   Logo designed by developer but inspired by example from clinic owners.
+
 -   hero-image sourced from https://stock.adobe.com/uk/contributor/37954/dmitry-sunagatov?load_type=author&prev_url=detail
 ### Acknowledgements
 -   services image from https://stock.adobe.com/uk/contributor/200467009/prostock-studio?load_type=author&prev_url=detail
