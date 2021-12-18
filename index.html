@@ -141,12 +141,14 @@
                 </div>
                 <!--sign up form-->
 
-                <div class="modal" tabindex="-1" id="signupmodal">
-                    <div class="modal-dialog">
+                <div class="modal" tabindex="-1" role="dialogue" id="signupmodal">
+                    <div class="modal-dialog" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
                                 <h5 class="modal-title">Sign up for our newsletter!</h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
                             </div>
                             <form action="https://formdump.codeinstitute.net/" method="post" target="_blank">
                                 <div class="form-group">
@@ -167,7 +169,7 @@
         </main>
 
         <!-- FOOTER -->
-        <footer class="bg-color-footer container-fluid">
+        <footer class="bg-color-footer container-fluid navbar-fixed-bottom">
             <div class="row no-gutters">
                 <!-- LOGO IN THE FOOTER -->
                 <div class="col-md-4">
