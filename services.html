@@ -33,7 +33,7 @@
                             <div class="col-md-4 icon">
                                 <i class="fas fa-map-marker-alt"></i>
                             </div>
-                            <div class="col-md-8">
+                            <div class="col-md-8 icon-info">
                                 <h3>Location</h3>
                                 <h2>123 Shelby Street</h2>
                                 <h2>London EC23 5GJ</h2>
@@ -45,7 +45,7 @@
                             <div class="col-md-4 icon">
                                 <i class="far fa-envelope"></i>
                             </div>
-                            <div class="col-md-8">
+                            <div class="col-md-8 icon-info">
                                 <h3>Email Us</h3>
                                 <h2>info@apollo-health.com</h2>
                             </div>
@@ -56,7 +56,7 @@
                             <div class="col-md-4 icon">
                                 <i class="fas fa-mobile-alt"></i>
                             </div>
-                            <div class="col-md-8">
+                            <div class="col-md-8 icon-info">
                                 <h3>Call Us</h3>
                                 <h2>0200 0000 0001</h2>
                             </div>
@@ -191,6 +191,30 @@
                 <button type="button" class="btn btn-lg btn-outline-dark"><a href="contact.html">Get in touch</a></button>
             </div>
         </div>
+            <!--sign up form-->
+
+    <div class="modal" tabindex="-1" id="signupmodal">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Sign up for our newsletter!</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form action="https://formdump.codeinstitute.net/" method="post">
+                <div class="form-group">
+                    <label for="signupname">Full Name</label>
+                    <input type="text" class="form-control" id="signupname" aria-describedby="nameHelp" placeholder="Enter name">
+                </div>
+                <div class="form-group">
+                    <label for="signupemail">Email address</label>
+                    <input type="email" class="form-control" id="signupemail" aria-describedby="emailHelp" placeholder="Enter email">
+                    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                </div>
+                <button type="submit" class="btn btn-success">Submit</button>
+            </form>
+            </div>
+          </div>
+        </div>
     </section>
     </main>
 
@@ -230,7 +254,7 @@
                         <h2>Stay Informed</h2>
                         <ul class="footersignup">
                             <li>Keep up to date with our Newsletter.</li>
-                            <li>Sign up <a href="#">here</a>.</li>
+                            <li>Sign up <a href="#" data-toggle="modal" data-target="#signupmodal">here</a>.</li>
                         </ul>
                         <hr class="d-md-none">
                     </div>
