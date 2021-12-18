@@ -1,6 +1,6 @@
 <h1 align="center">Apollo Health Website</h1>
 
-[View the live project here.](# mock ups here)
+[View the live project here.](https://sarah-lb.github.io/my-first-project/)
 
 This is the main marketing website for Apollo Health. It is designed to be responsive and accessible on a range of devices, making it easy to navigate for potential clients.
 
@@ -39,9 +39,9 @@ This is the main marketing website for Apollo Health. It is designed to be respo
     -   #### Colour Scheme
         -   The two main colours used are blue and white, for a clean, clinical feel.  The orange from the logo is also used to highlight sections and draw the eye to social media links. 
     -   #### Typography
-        -   The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
+        -   The Roboto font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Roboto is a clean and clear font, making it appropriate for this site.
     -   #### Imagery
-        -   Imagery is important. The large, background hero image is designed to be striking and catch the user's attention. It also has a clean and healthy aesthetic.
+        -   The large hero image is designed to catch the user's attention and encourage them to delve further into the site. It also has a clean and healthy aesthetic.
 
 *   ### Wireframes
 
@@ -55,9 +55,9 @@ This is the main marketing website for Apollo Health. It is designed to be respo
 
 ## Features
 
--   Responsive on all device sizes
+-   Responsive on all device sizes.
 
--   Interactive elements
+-   Interactive elements such as newsletter sign up, contact form and embedded google maps.
 
 ## Technologies Used
 
@@ -68,32 +68,33 @@ This is the main marketing website for Apollo Health. It is designed to be respo
 
 ### Frameworks, Libraries & Programs Used
 
-1. [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
+1. [Bootstrap 4.5:](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
     - Bootstrap was used to assist with the responsiveness and styling of the website.
 1. [Hover.css:](https://ianlunn.github.io/Hover/)
-    - Hover.css was used on the Social Media icons in the footer to add the float transition while being hovered over.
+    - Hover.css was used on the list of menu items in the navbar to add the grow transition while being hovered over.
 1. [Google Fonts:](https://fonts.google.com/)
-    - Google fonts were used to import the 'Titillium Web' font into the style.css file which is used on all pages throughout the project.
+    - Google fonts were used to import the 'Roboto' and 'Varela Round' fonts into every html file in the project.
 1. [Font Awesome:](https://fontawesome.com/)
     - Font Awesome was used on all pages throughout the website to add icons for aesthetic and UX purposes.
 1. [jQuery:](https://jquery.com/)
-    - jQuery came with Bootstrap to make the navbar responsive but was also used for the smooth scroll function in JavaScript.
+    - jQuery came with Bootstrap to make the navbar responsive and create a modal signup form.
 1. [Git](https://git-scm.com/)
     - Git was used for version control by utilizing the Gitpod terminal to commit to Git and Push to GitHub.
 1. [GitHub:](https://github.com/)
     - GitHub is used to store the projects code after being pushed from Git.
-1. [Photoshop:](https://www.adobe.com/ie/products/photoshop.html)
-    - Photoshop was used to create the logo, resizing images and editing photos for the website.
+1. [GIMP Image Editor Pro:](https://www.gimp.org/)
+    - GIMP was used to create the logo for the website, used in the header and footer.
 1. [Balsamiq:](https://balsamiq.com/)
-    - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+    - Balsamiq was used to create the wireframes during the design process.
 
 ## Testing
 
 The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
--   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
--   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - [Results](https://github.com/)
+-   [W3C Markup Validator](https://validator.w3.org/#validate_by_input)
+-   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 -   Lighthouse used for responsiveness, compatability, accessibility... etc
+-   [HTML formatter](https://webformatter.com/html)
 
 ### Testing User Stories from User Experience (UX) Section
 
@@ -157,17 +158,15 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 ### Further Testing
 
--   The Website was tested on Google Chrome, Internet Explorer, Microsoft Edge and Safari browsers.
--   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone7, iPhone 8 & iPhoneX.
+-   The Website was tested on Google Chrome, Microsoft Edge and Safari browsers.
+-   The website was viewed on a variety of devices such as Desktop, Laptop, iPhone5, iPad, Samsung Galaxy, Nokia 1.4.
 -   Lighthouse
 -   A large amount of testing was done to ensure that all pages were linking correctly.
 -   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 
 ### Known Bugs
 
--   On some mobile devices the Hero Image pushes the size of screen out more than any of the other content on the page.
-    -   A white gap can be seen to the right of the footer and navigation bar as a result.
--   On Microsoft Edge and Internet Explorer Browsers, all links in Navbar are pushed upwards when hovering over them.
+-   The navbar was moved out of the header and into the body in order to make it sticky. The hvr-grow class will now not always work.
 
 ### Issues I came across - where to put this?
 -   Used vw for font-size but also changed layout for different devices - so had tiny text and icons spanning the whole screen!
@@ -180,6 +179,7 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 -   PICS TAKING TOO LONG TO LOAD - MADE SMALLER
 -   services.html pic looking oddly cropped on mobile so repositioned using media query
 -   navbar drop down text white on white background so couldn't see it - needed to use media query to make background blue.  Text all inline and ontop of each other.  Used media query to remove inline command for md screen sizes.
+-   white space on right
 
 ## Deployment
 
@@ -236,6 +236,8 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 -   The full-screen hero image code came from this [StackOverflow post](https://stackoverflow.com)
 
 -   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+
+-   readme from sodeinstitute template
 
 ### Content
 

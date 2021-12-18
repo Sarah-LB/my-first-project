@@ -36,11 +36,19 @@
     background-color:rgba(233, 231, 248, 0.945);
 }
 
-/*-----------------------------------------------------------Header*/
+/*-----------------------------------------------------------Layout and spaces*/
 
-header {
-    margin: 0;
+main {
+    min-height: calc(100vh - 365px);
 }
+
+body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+    }
+
+/*-----------------------------------------------------------Header*/
 
 .icon-info {
     height: 100px;
@@ -142,9 +150,6 @@ header {
 
 /*-----------------------------------------------------------Content for Index.html*/
 
-main {
-    min-height: calc(100vh - 365px);
-}
 
 img {
     width: 100%;
