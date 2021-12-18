@@ -94,7 +94,7 @@ body {
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
-    background-color: none;
+    background-color: #fff;
     margin-top: 30px;
 }
 
@@ -319,19 +319,17 @@ img {
     padding: 10px;
 }
 
-#lead-button button {
-    background-color: rgb(31, 16, 165);
-    text-align: center;
-    padding: 10px;
-    white-space: nowrap;
-}
-
-#lead-button button a {
+#lead-button a {
     text-decoration: none;
     color: #fff;
     font-size: 18px;
     font-weight: 300;
     font-family: 'Roboto', sans-serif;
+    background-color: rgb(31, 16, 165);
+    padding: 10px;
+    white-space: nowrap;
+    text-align: center;
+    border-radius: 10px;
 }
 
 .about-banner,
@@ -406,7 +404,7 @@ img {
 .contactus p {
     font-family: 'Roboto', sans-serif;
     font-size: 22px;
-    font-weight: 300px;
+    font-weight: 300;
     text-align: center;
 }
 
@@ -419,7 +417,7 @@ img {
 .center-form label {
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-    font-weight: 300px;
+    font-weight: 300;
 }
 
 button[type="submit"] {
@@ -427,7 +425,7 @@ button[type="submit"] {
     margin-bottom: 20px;
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
-    font-weight: 300px;
+    font-weight: 300;
     color: #000;
     background-color: rgb(238, 159, 13);
 }
@@ -448,11 +446,15 @@ button[type="submit"] {
 .contactmap-info h2 {
     font-family: 'Roboto', sans-serif;
     font-size: 22px;
-    font-weight: 300px;
+    font-weight: 300;
 }
 
 .contactmap-list {
     padding: 30px;
+}
+
+iframe {
+    width: 100%;
 }
 
 /*-----------------------------------------------------------Footer*/
@@ -528,7 +530,7 @@ button[type="submit"] {
     transition: all .5s ease-in-out;
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
-    background-color: none;
+    background-color: rgb(31, 16, 165);
 }
 
 .address {
