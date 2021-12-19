@@ -255,6 +255,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 -   Dropdown menu for navbar on smaller screens was taken from a Code Institute lesson and edited.
 
 -   [Box shadows](https://getcssscan.com/css-box-shadow-examples): Used code to put box shadows on staff images on about.html page.
+-   Used Code Institute Github template.
 
 ### Content
 
