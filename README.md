@@ -184,18 +184,15 @@ The W3C Markup Validator and W3C CSS Validator Services were used to validate ev
 
 -   The navbar was moved out of the header and into the body in order to make it sticky. The hvr-grow class will now not always work.
 
-### Issues I came across - where to put this?
--   Used vw for font-size but also changed layout for different devices - so had tiny text and icons spanning the whole screen!
-    Changed for media queries.
--   text in footer and header wrapping - needed to stop it.
--   needed hero image with transparent background or looked too blocky - used png image
--   TRYING TO IMPLEMENT STICKY NAVBAR!!
-       moved navbar out of header to make it sticky.  but then hvr-grow not working on menu items! (known bug - need to fix)
--   CENTERING LEADGENERATOR BUTTON AND HEADINGS - LEARNED ABOUT USING FLEXBOX IN BOOTSTRAP
--   PICS TAKING TOO LONG TO LOAD - MADE SMALLER
--   services.html pic looking oddly cropped on mobile so repositioned using media query
--   navbar drop down text white on white background so couldn't see it - needed to use media query to make background blue.  Text all inline and ontop of each other.  Used media query to remove inline command for md screen sizes.
--   white space on right
+### Issues I overcame
+-   Tried using vw for font-size but ended up with tiny text and icons spanning the whole screen because of mobile first layout so swapped for pixels and media queries.
+-   Needed a hero image with transparent background or the page looked too blocky - used png image
+-   Trying to make the navbar stick to thetop of the screen on scrolling was difficult.  Ended up moving navbar out of header to make it sticky but then hvr-grow stopped working on menu items! Sticky navbar better UX than grow so kept sticky navbar.
+-   Centering the leadgenerator button and headings was a challenge - read up on flexbox and implemented that.
+-   Some of the images were taking a long time to load so made the files smaller.
+-   Services.html pic looking oddly cropped on mobile so repositioned using media query.
+-   Navbar drop down text white on white background so couldn't see it - needed to use media query to make background blue.  Text all inline and ontop of each other.  Used media query to remove inline command for md screen sizes.
+-   White space was appearing on the right of the screen, varying in width depending on screen size.  Tried many many things and eventually removed it using the overflow-x css attribute.
 
 ## Deployment
 
